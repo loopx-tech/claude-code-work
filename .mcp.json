@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "genudo": {
+      "type": "http",
+      "url": "https://fymcfqykdtxkhhwvszqg.supabase.co/functions/v1/genudo-mcp",
+      "headers": {
+        "Authorization": "Bearer ${GENUDO_API_KEY}"
+      }
+    }
+  }
+}
